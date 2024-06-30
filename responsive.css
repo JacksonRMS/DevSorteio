@@ -1,0 +1,23 @@
+@media(max-width:450px){
+
+    .container {
+        height:450px;
+        width: auto;
+    }
+
+    img{
+        width:300px;
+    }
+
+    h1{
+        font-size:50px;
+    }
+
+    input{
+        width:200;
+    }
+
+    button{
+        width:180px;
+    }
+}
