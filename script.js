@@ -11,9 +11,10 @@ function sort() {
 
     const result = Math.floor(Math.random() * (max - min + 1) + min);
 
+    const msg = body.innerText = result
   
 
-    alert(result)
+    //alert(result)
 }
 
 // const minCeiled = Math.ceil(min);

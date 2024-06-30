@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:radial-gradient(yellow, rgb(187, 125, 10));
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 500px;
+    width:auto;
+    border:solid black 3px;
+    border-radius:22px;
+    background-color:gray;
+    filter: drop-shadow(5px 5px 3px black);
+}
+
+header{
+    text-align:center;
+    filter: drop-shadow(5px 5px 3px black);
+}
+
+h1{
+    font-size:70;
+    color:blue;
+    filter: drop-shadow(1px 1px 8px black);
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-top:22px;
+    gap:15px;
+}
+
+p{
+    font-size:20px;
+    color:blue;
+    text-align:center;
+    filter: drop-shadow(1px 1px 8px black);
+}
+
+input{
+    width:250px;
+    height:30;
+    text-align:center;
+    background-color: yellow;
+    border:solid black 1px;
+    border-radius:6px;
+    font-weight:bolder ;
+    filter: drop-shadow(5px 5px 3px black);
+}
+
+button{
+    width:200px;
+    height:40px;
+    border:solid black 1px;
+    border-radius:7px;
+    font-size:18px;
+    color:#ffffff;
+    background-color:blue;
+    filter: drop-shadow(5px 5px 3px black);
+}
+
+button:hover{
+    opacity:0.8;
+    transition: ease-in-out .3s;
+}
+
+button:active{
+    width: 190px;
+    height: 35px;
+}
