@@ -17,7 +17,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    height: 500px;
+    height: 550px;
     width:auto;
     border:solid black 3px;
     border-radius:22px;
@@ -56,7 +56,7 @@ input{
     width:250px;
     height:30;
     text-align:center;
-    background-color: yellow;
+    background-color: rgb(177, 177, 63);;
     border:solid black 1px;
     border-radius:6px;
     font-weight:bolder ;
@@ -72,6 +72,10 @@ button{
     color:#ffffff;
     background-color:blue;
     filter: drop-shadow(5px 5px 3px black);
+}
+
+#result{
+    background-color: yellow;
 }
 
 button:hover{
